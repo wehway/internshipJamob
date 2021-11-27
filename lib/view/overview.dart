@@ -1,4 +1,4 @@
-// ignore_for_file: deprecated_member_use
+// ignore_for_file: deprecated_member_use, import_of_legacy_library_into_null_safe
 
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -357,7 +357,7 @@ class OverviewState extends State<Overview> {
                             icon: Icon(Icons.code),
                             tooltip: 'View source code',
                             color: Colors.blueGrey,
-                            onPressed: ()=>launch("https://www.dicoding.com/users/127809"),
+                            onPressed: ()=>launch("https://www.dicoding.com/users/wehway"),
                           )
                         ],
                       ),
